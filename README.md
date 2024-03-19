@@ -17,35 +17,6 @@ The program takes user inputs for name, IC number, height, and weight, calculate
 - Overweight: BMI between 25.0 and 29.9
 - Obesity: BMI 30.0 or higher
 
-Sure, here's a basic README.md for your program:
-BMI Calculator
-
-This is a simple BMI (Body Mass Index) calculator implemented in C. The program takes user inputs for name, IC number, height, and weight, calculates the BMI, and provides a status based on the calculated BMI.
-How to Use
-
-    Compile the Program: Compile the source code bmi_calculator.c using a C compiler. For example, you can use GCC:
-
-gcc bmi_calculator.c -o bmi_calculator
-
-Run the Program: Execute the compiled program:
-
-bash
-
-    ./bmi_calculator
-
-    Input Information: Follow the prompts to input your name, IC number, height (in meters), and weight (in kilograms).
-
-    View BMI Details: The program will display your entered information along with calculated BMI and status.
-
-Understanding BMI Status
-
-The program categorizes BMI status into the following categories:
-
-    Underweight: BMI less than 18.5
-    Normal weight: BMI between 18.5 and 24.9
-    Overweight: BMI between 25.0 and 29.9
-    Obesity: BMI 30.0 or higher
-
 For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
 For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
 
