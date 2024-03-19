@@ -17,8 +17,8 @@ The program takes user inputs for name, IC number, height, and weight, calculate
 - Overweight: BMI between 25.0 and 29.9
 - Obesity: BMI 30.0 or higher
 
-For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
-For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
+- For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
+- For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
 
 # License
 
