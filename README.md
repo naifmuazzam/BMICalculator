@@ -12,13 +12,15 @@ The program takes user inputs for name, IC number, height, and weight, calculate
 4. The program will display your entered information along with calculated BMI and status.
 
 # Understanding BMI Status
+
+1. For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
+2. For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
+   
 - Underweight: BMI less than 18.5
 - Normal weight: BMI between 18.5 and 24.9
 - Overweight: BMI between 25.0 and 29.9
 - Obesity: BMI 30.0 or higher
 
-- For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
-- For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
 
 # License
 
