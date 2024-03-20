@@ -1,25 +1,40 @@
-# BMICalculator
-This is a simple BMI (Body Mass Index) calculator implemented in C.
-The program takes user inputs for name, IC number, height, and weight, calculates the BMI, and provides a status based on the calculated BMI.
+# Personal Health Analyzer A.K.A BMI Calculator
+This program serves as a personal health analyzer, allowing users to input their personal details such as name, IC (Identification Card) number, height, and weight to obtain various health-related information including BMI (Body Mass Index), ideal weight, and weight status. Additionally, it extracts information such as birthdate, age, and gender from the provided IC number.
 
-
+# Features
+- Personal Detail Extraction: Extracts information such as birthdate, gender, and state of birth from the provided IC number.
+- Age Calculation: Calculates the user's current age based on the provided birthdate.
+- BMI Calculation: Calculates the user's BMI based on the provided height and weight.
+- Weight Status Determination: Determines the user's weight status (e.g., underweight, normal weight, overweight, obesity) based on their BMI.
+- Ideal Weight Calculation: Computes the user's ideal weight based on their height.
+- Weight Detail: Calculates the difference between the user's actual weight and their ideal weight, providing insight into weight loss or gain requirements.
 
 # Usage
 
-1. Compile the program using the following command: `gcc bmi.c -o bmi`
-2. Run the compiled program: `./bmi`
-3. Follow the prompts to input your name, IC number, height (in meters), and weight (in kilograms).
-4. The program will display your entered information along with calculated BMI and status.
+1. Input Gathering:
+- The user inputs their name, IC number (without dashes), height (in meters), and weight (in kilograms) when prompted.
+  
+2. Data Extraction and Calculation:
+- The program extracts relevant information from the provided IC number, such as birthdate, gender, and state of birth.
+- It calculates the user's current age, BMI, ideal weight, and weight status.
+  
+3. Output Display:
+- The program displays the extracted personal details, including name, IC number, birthdate, age, gender, and state of birth.
+- It also presents the calculated BMI, weight status, ideal weight, and weight detail (difference between actual weight and ideal weight).
 
-# Understanding BMI Status
 
-1. For individuals falling in the "Underweight" category, the program also calculates the weight to gain to reach the ideal weight. 
-2. For those in the "Overweight" or "Obesity" categories, it calculates the weight to lose to reach the ideal weight.
-   
-- Underweight: BMI less than 18.5
-- Normal weight: BMI between 18.5 and 24.9
-- Overweight: BMI between 25.0 and 29.9
-- Obesity: BMI 30.0 or higher
+# Setup
+1. Clone the Repository:
+'git clone https://github.com/naifmuazzam/BMICalculator.git'
+2. Compile and Run:
+- Navigate to the directory containing the source code.
+- Compile the code using a C compiler such as GCC:
+'gcc BMICalculator.c -o BMICalculator'
+- run the executable:
+'./BMICalculator'
+
+# Contributions 
+Contributions to enhance the functionality, optimize the code, or improve documentation are welcome! Feel free to open an issue to discuss potential changes or submit a pull request.
 
 
 # License
