@@ -25,13 +25,13 @@ This program serves as a personal health analyzer, allowing users to input their
 
 # Setup
 1. Clone the Repository:
-'git clone https://github.com/naifmuazzam/BMICalculator.git'
+`git clone https://github.com/naifmuazzam/BMICalculator.git`
 2. Compile and Run:
 - Navigate to the directory containing the source code.
 - Compile the code using a C compiler such as GCC:
-'gcc BMICalculator.c -o BMICalculator'
+`gcc BMICalculator.c -o BMICalculator`
 - run the executable:
-'./BMICalculator'
+`./BMICalculator`
 
 # Contributions 
 Contributions to enhance the functionality, optimize the code, or improve documentation are welcome! Feel free to open an issue to discuss potential changes or submit a pull request.
