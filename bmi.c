@@ -109,7 +109,7 @@ int main() {
 
     // Input Name: User Enter Name
 	printf("Enter your Name: ");
-	scanf("%s", name);
+	scanf("%[^\n]", name);
 
 	// Input IC: User Enter noIC Number
 	printf("Enter your IC Number (without dash): ");
