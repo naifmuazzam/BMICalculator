@@ -1,5 +1,5 @@
 # BMI Calculator
-This program serves as a personal health analyzer, allowing users to input their personal details such as name, IC (Identification Card) number, height, and weight to obtain various health-related information including BMI (Body Mass Index), ideal weight, and weight status. Additionally, it extracts information such as birthdate, age, and gender from the provided IC number.
+This program allowing users to input their personal details such as name, IC (Identification Card) number, height, and weight to obtain various health-related information including BMI (Body Mass Index), ideal weight, and weight status. Additionally, it extracts information such as birthdate, age, and gender from the provided IC number.
 
 # Features
 - Personal Detail Extraction: Extracts information such as birthdate, gender, and state of birth from the provided IC number.
